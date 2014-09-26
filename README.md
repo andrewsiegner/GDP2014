@@ -1,7 +1,8 @@
 GDP2014
 =======
 
-Code from the 2014 Game Development - Advanced Programming classes at Fanshawe College
+Code from some of the 2014 "Game Development - Advanced Programming" classes at Fanshawe College (the ones I taught)
+http://www.fanshawec.ca/programs-courses/full-time-programs/gdp1-intro 
 
 This code is mainly what was presented in class during the year.
 
