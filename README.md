@@ -5,7 +5,7 @@ Code from the 2014 Game Development - Advanced Programming classes at Fanshawe C
 
 This code is mainly what was presented in class during the year.
 
-While there’s an attempt to make the code clear and “self-documenting”, if you didn’t attend the class, it may not be easy to follow. 
+While there’s an attempt to make the code clear and “self-documenting”, if you didn’t attend the class, it may not be easy to follow (or even make any sense at all). 
 
 The intention is clarity of explaining/demonstrating concepts (usually a specific, single concept per class), not making it fast, sexy, everything-for-everybody, or whatever. 
 
@@ -19,4 +19,4 @@ There's other stuff related to the program at www.graduategaming.com (which is m
 
 Fanshawe College is in London, Ontario, Canada, Earth.  
 
-You can reach me at mfeeney (at) fanshawec.ca. 
+You can reach me at mfeeney (at) fanshawec.ca.
