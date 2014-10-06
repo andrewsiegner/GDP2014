@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11D21AB7-BF25-428B-82E0-784DC7C2C4FD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OpenGLForTheWin</RootNamespace>
+    <ProjectName>W05D2_Graph</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>d:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib\GL\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>d:\Program Files %28x86%29\Microsoft Visual Studio 11.0\VC\lib\GL\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OmitFramePointers>false</OmitFramePointers>
+      <MinimalRebuild>true</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CBunny.cpp" />
+    <ClCompile Include="CCamera.cpp" />
+    <ClCompile Include="CMessage.cpp" />
+    <ClCompile Include="CFactoryMediator.cpp" />
+    <ClCompile Include="CHRTimer.cpp" />
+    <ClCompile Include="CModelLoaderManager.cpp" />
+    <ClCompile Include="CNameValuePair.cpp" />
+    <ClCompile Include="CNinjaTeapot.cpp" />
+    <ClCompile Include="CPlyFile5nt.cpp" />
+    <ClCompile Include="CTriangle.cpp" />
+    <ClCompile Include="CVector3f.cpp" />
+    <ClCompile Include="CVertex.cpp" />
+    <ClCompile Include="CGameObject.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="glutClose_callback.cpp" />
+    <ClCompile Include="glutDisplay_callback.cpp" />
+    <ClCompile Include="glutKeyboardSpecial_callbacks.cpp" />
+    <ClCompile Include="glutReshape_callback.cpp" />
+    <ClCompile Include="LoadPlyFileIntoGLBuffers.cpp" />
+    <ClCompile Include="OpenGL_Initialize.cpp" />
+    <ClCompile Include="printTheWhatsThisProgramAboutBlurb.cpp" />
+    <ClCompile Include="ShaderTypes.cpp" />
+    <ClCompile Include="SuperBasic_GLEW_freeGLUT.cpp" />
+    <ClCompile Include="Utils_NO_LONGER_NEEDED.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="VertexTypes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBunny.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="CCamera.h" />
+    <ClInclude Include="CMessage.h" />
+    <ClInclude Include="CFactoryMediator.h" />
+    <ClInclude Include="CGameObject.h" />
+    <ClInclude Include="CHRTimer.h" />
+    <ClInclude Include="CModelLoaderManager.h" />
+    <ClInclude Include="CNameValuePair.h" />
+    <ClInclude Include="CNinjaTeapot.h" />
+    <ClInclude Include="CPlyFile5nt.h" />
+    <ClInclude Include="CPlyInfo.h" />
+    <ClInclude Include="CTriangle.h" />
+    <ClInclude Include="CVector3f.h" />
+    <ClInclude Include="CVector4f.h" />
+    <ClInclude Include="CVertex.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="IFactory.h" />
+    <ClInclude Include="IMediator.h" />
+    <ClInclude Include="QnDPly.h" />
+    <ClInclude Include="ShaderTypes.h" />
+    <ClInclude Include="Utils_NO_LONGER_NEEDED.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\OpenGLProgGuidMutipleLights.fragment.glsl" />
+    <None Include="shaders\OpenGLProgGuidMutipleLights.vertex.glsl" />
+    <None Include="shaders\PointLight_OpenGLGuide.fragment.glsl" />
+    <None Include="shaders\PointLight_OpenGLGuide.vertex.glsl" />
+    <None Include="shaders\SimpleShader.fragment.glsl" />
+    <None Include="shaders\SimpleShader.vertex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="whats_this.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

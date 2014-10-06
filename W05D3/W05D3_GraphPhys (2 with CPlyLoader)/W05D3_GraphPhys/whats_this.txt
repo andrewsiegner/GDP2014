@@ -1,0 +1,15 @@
+Game Development - Advanced Programming example: <cr>
+Shows multi-model loading and (very) basic motion. <cr>
+<cr>
+Usage: <cr>
+<cr>
+* AWSD: Move camera around <cr>
+* Arrow keys: move "player" object around <cr>
+* Space: stop moving "player" object <cr>
+* o: Follow the player object <cr>
+* p: Stop following the player object <cr>
+<cr>
+Questions? Comments? <cr>
+mfeeney@fanshawec.ca <cr>
+Michael Feeney from Fanshawe College, London, Canada <cr>
+<cr>
