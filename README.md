@@ -1,23 +1,29 @@
 GDP2014
 =======
 
-Code from some of the 2014 "Game Development - Advanced Programming" classes at Fanshawe College (the ones I taught, anyway)
+This *WAS* the code from the 2014 to 2015 "Game Development - Advanced Programming" classes at Fanshawe College (the ones I taught, anyway)
 www.fanshawec.ca/en/GDP1
 
 This code is mainly what was presented in class during the year.
 
-While there’s an attempt to make the code clear and “self-documenting”, if you didn’t attend the class, it may not be easy to follow (or even make any sense at all). 
+The Plan was to make it open to everyone, but then I got to wondering about legal issues, people kvetching, etc. 
 
-The intention is clarity of explaining/demonstrating concepts (usually a specific, single concept per class), not making it fast, sexy, everything-for-everybody, or whatever. 
+Also, since we do PlayStation 3 development, there was a risk of putting stuff from the Sony SDK (and that violates our agreement with Sony, I'm pretty sure). 
 
-If you don’t like it, feel free to change your copy of it. 
+So *now* the repository is *private* (if you are a student in the program, you will be given access to it). 
 
-If you’re expecting it to be 100% bug free, then I’ve got some bad news for you... 
+If you're not a student, but would still like to have access to it, please e-mail me, and we can chat about it (TBH, I'll likely say a polite, Canadian "no" - because: see below). 
 
-If (when) you find a bug (many bugs), please let me know. 
+BUUUT if you are just looking to play/see the stuff we don in class, check out www.graduategaming.com 
+(which is my own site and is *IN NO WAY* affiliated with or endorsed by Fanshawe College - other than the fact that I happen to work there and teach in/coordinate the game development program).
+(You can download the games there, read the blog, watch the videos, just have a great time! Oh yeah!)
 
-There's other stuff related to the program at www.graduategaming.com (which is my own site and in no way affiliated with Fanshawe - other than the fact that I happen to work there and teach in that program).
 
 Fanshawe College is in London, Ontario, Canada, Earth.  
 
 You can reach me at mfeeney (at) fanshawec.ca.
+
+
+Regards, 
+
+Michael Feeney
